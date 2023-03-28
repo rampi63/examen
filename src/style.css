@@ -1,0 +1,79 @@
+body {
+  margin: unset;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.App h1 {
+  text-align: center;
+}
+.App .loading {
+  color: darkcyan;
+}
+.App .more-info {
+  cursor: pointer;
+}
+.App .more-info:hover {
+  color: blueviolet;
+  text-decoration-line: underline;
+}
+.App .tabla {
+  border: 1px solid black;
+  border-spacing: 0px !important;
+}
+.App .tabla .encabezado td {
+  border: 1px solid black;
+  background-color: darkcyan;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+.App .tabla .cuerpo td {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+.App .tabla .cuerpo .id {
+  cursor: pointer;
+}
+.App .tabla .cuerpo .id:hover {
+  color: blueviolet;
+  text-decoration-line: underline;
+}
+.App .modal {
+  background-color: rgba(0, 0, 0, 0.349);
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.App .modal .container {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.App .modal .container .closeModal {
+  margin-left: auto;
+  cursor: pointer;
+  font-weight: 600;
+}
+.App .modal .container .closeModal:hover {
+  color: blueviolet;
+  text-decoration-line: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
